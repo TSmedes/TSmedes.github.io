@@ -62,7 +62,8 @@ nav ul li a:hover::after{
 .main-box{
     display: flex;
     justify-content:space-around;
-    margin: 15% 25%;
+    max-width: 750px;
+    margin: 15% auto;
     padding: 50px;
     background: #fff;
     border-radius: 25px;
@@ -148,14 +149,81 @@ nav ul li a:hover::after{
     width: 100%;
     height: 60px;
 }
-
+/*-------------Footer-------------*/
+#footer{
+    height: 90px;
+    width: 100%;
+    position: relative;
+    margin-top: -90px;
+    background: #A69079;
+    padding: 10px;
+}
+.socials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+}
+.socials ul li{
+    display: inline-block;
+    margin: 20px;
+    width: 30px;
+    position: relative;
+}
+.socials ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.socials ul li a img{
+    width: 30px;
+    transition: 0.2s;
+    position: relative;
+}
+#phone{
+    width: 25px;
+    padding-bottom: 2px;
+}
+#email{
+    padding-bottom: 5px;
+}
+.socials ul li .social-tooltip{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0;
+    white-space: nowrap;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 6px;
+    background: #fff;
+    position: absolute;
+    left: -150%;
+    bottom: 100%;
+    transition: all 0.5s ;
+}
+#emailtool{
+    left: -275%;
+}
+#phonetool{
+    left: -250%;
+}
+.socials ul li a img:hover + .social-tooltip{
+    opacity: 1;
+    transform: translateY(-15px);
+}
+.socials ul li a img:hover{
+    transform: translateY(-5px);
+    filter: invert(100%);
+}
 /*-----------About page-----------*/
 .about-me{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20vh;
+    margin-top: 100px;
+    min-height: 73vh;
 }
 .about-me .main-text{
     font-size: 24px;
@@ -181,4 +249,11 @@ nav ul li a:hover::after{
 .img img{
     margin: 30px 30px;
     padding: 100%;
+}
+
+/*------------About Footer----------*/
+#about-footer #footer{
+    position: static;
+    margin-top: 0;
+    
 }
