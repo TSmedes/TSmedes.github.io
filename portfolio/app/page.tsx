@@ -20,7 +20,7 @@ export default function Home() {
       </main>
       <footer className="bg-white shadow mt-12">
         <div className="container mx-auto px-4 py-6">
-          <p className="text-center text-gray-700">&copy; 2024 Smedes</p>
+          <p className="text-center text-gray-700">&copy; 2025 Smedes</p>
         </div>
       </footer>
     </div>

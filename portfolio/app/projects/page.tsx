@@ -15,7 +15,7 @@ const Page = () => {
                     <div className="p-4">
                     <h2 className="project-title text-xl font-semibold mb-2">{project.title}</h2>
                     <p className="project-summary text-gray-700 mb-4">{project.summary}</p>
-                    <p className=" text-gray-700 mb-4">This was an individual project.</p>
+                    {/* <p className=" text-gray-700 mb-4">This was an individual project.</p> */}
                     <Link href={project.details} className="project-details text-blue-500 hover:underline">View Details</Link>
                     </div>
                 </div>
