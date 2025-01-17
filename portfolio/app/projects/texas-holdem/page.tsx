@@ -6,11 +6,11 @@ const Page: React.FC = () => {
         <div>
             <Header />
             <div className="container mx-auto p-4">
-                <h1 className="text-4xl font-bold mb-4">Texas Hold'em</h1>
+                <h1 className="text-4xl font-bold mb-4">Texas Hold&apos;em</h1>
                 
                 <div className="mb-4 p-4 border rounded-lg shadow-md">
                     <p>
-                        This is a project I created to learn more about Rust. It is a Texas Hold'em poker game that allows the user to play in the CLI. The game is played against automated opponents. I learned about several data types in Rust for this project.
+                        This is a project I created to learn more about Rust. It is a Texas Hold&apos;em poker game that allows the user to play in the CLI. The game is played against automated opponents. I learned about several data types in Rust for this project.
                     </p>
                 </div>
                 <div className="mb-4 p-4 border rounded-lg shadow-md">
