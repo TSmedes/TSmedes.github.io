@@ -1,5 +1,11 @@
 const items = [
     {
+        title: "Texas Hold'em in Rust",
+        summary: "I developed a CLI poker game in Rust.", 
+        thumbnail: "/images/winning_hand.png", 
+        details: "/projects/texas-holdem",
+    },
+    {
         title: "Learning Model Website",
         summary: "I developed a website at the request of a customer that explains the steps and process of the learning model they use in their business.", 
         thumbnail: "/images/learning-model.png", 
