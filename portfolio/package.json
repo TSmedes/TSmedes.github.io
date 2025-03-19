@@ -12,8 +12,10 @@
     "@pdftron/webviewer": "^11.0.0",
     "@react-pdf-viewer/core": "^3.12.0",
     "@react-pdf-viewer/default-layout": "^3.12.0",
+    "custom-cursor-react": "^1.0.5",
     "next": "15.0.2",
     "react": "19.0.0-rc-02c0e824-20241028",
+    "react-animated-cursor": "^2.11.2",
     "react-dom": "19.0.0-rc-02c0e824-20241028"
   },
   "devDependencies": {
