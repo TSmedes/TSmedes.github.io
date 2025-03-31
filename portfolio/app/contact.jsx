@@ -11,6 +11,9 @@ const Contact = () => {
                 <p className="font-light text-gray-700 text-base mb-4">
                     LinkedIn: <a href="https://www.linkedin.com/in/toby-smedes/" target="_blank" className="underline font-light">Tobias Smedes</a>
                 </p>
+                <p className="font-light text-gray-700 text-base mb-4">
+                    Resume: <a href="/files/resume_public.pdf" download className="underline font-light">Download Resume</a>
+                </p>
             </div>
         </div>
     );
