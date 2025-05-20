@@ -17,6 +17,22 @@ const Page: React.FC = () => {
             transcript of a video. The extension will then use these corrections to improve the transcript for future
             users.
           </p>
+          <h3 className="text-2xl font-semibold mb-2 mt-4">My learnings</h3>
+          <ul className="list-disc list-inside">
+            <li>Developed a cloud-native serverless API using AWS API Gateway, Lambda, DynamoDB, and Cognito</li>
+            <li>Maintained infrastructure-as-code (IaC) with AWS CDK in TypeScript, ensuring consistency across environments</li>
+            <li>Orchestrated infra deployment with GitHub Actions, including synthesizing CloudFormation and deploying stacks</li>
+            <li>Designed API specifications in OpenAPI (Swagger) format for clear and standardized endpoint documentation</li>
+          </ul>
+        </div>
+        <div className="mb-4 p-4 border rounded-lg shadow-md">
+          <h2 className="text-2xl font-semibold mb-2">Resources</h2>
+          <ul className="list-disc list-inside">
+            <li>Extension: <a href="https://chromewebstore.google.com/detail/capsource/gpfbeloigegemgfcjjhiedgjpkpoenok" target="_blank" className="text-blue-500 hover:underline">Chrome Web Store</a></li> 
+            <li>
+              Dashboard: <a href="https://capsource.vercel.app/" target="_blank" className="text-blue-500 hover:underline">https://capsource.vercel.app/</a>
+           </li>
+         </ul>
         </div>
         <div className="mb-4 p-4 border rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold mb-2">Technologies Used</h2>
