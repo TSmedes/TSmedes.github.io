@@ -1,16 +1,17 @@
 name: Build and Deploy
 run-name: Build and deploy by @{{ github.actor }}
 
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
 env:
   GCP_SA_KEY: ${{ secrets.FIREBASE_TOKEN }}
 
 permissions:
   contents: read
-
-on:
-  push:
-    branches:
-      - main
 
 jobs:
   deploy:
