@@ -1,5 +1,5 @@
 name: Build and Deploy
-run-name: Build and deploy by @{{ github.actor }}
+run-name: Build and deploy by @${{ github.actor }}
 
 on:
   push:
@@ -27,7 +27,7 @@ jobs:
           node-version: 22
       
       - name: Clean install of dependencies
-        run: npm ci
+        run: npm ci --force
 
       - name: Build
         run: npm run build
