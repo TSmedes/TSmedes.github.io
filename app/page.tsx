@@ -1,10 +1,7 @@
+import About from "./About";
+import Contact from "./Contact";
 import Header from "./header";
 import Intro from "./Intro";
-import About from "./About";
-// import Projects from './Projects';
-// import Model from './Model';
-// import Cycle from './Cycle';
-import Contact from "./Contact";
 
 export default function Home() {
   return (
@@ -15,9 +12,6 @@ export default function Home() {
         <div id="about">
           <About />
         </div>
-        {/* <div id="audience"><Projects /></div> */}
-        {/* <div id="model"><Model /></div> */}
-        {/* <div id="cycle"><Cycle /></div> */}
         <div id="contact">
           <Contact />
         </div>
